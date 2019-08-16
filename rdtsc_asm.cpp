@@ -1,4 +1,4 @@
-// Use g++ (from MINGW gcc 6.3.0) like "g++ rdtsc_asm.cpp"
+// Use g++ (from MINGW gcc 6.3.0) like "g++ rdtsc_asm.cpp" or "g++ .\rdtsc_asm.cpp -static -static-libgcc -static-libstdc++ -o avg_rdtsc.exe" if you want static linking libs
 
 #include <iostream>
 
